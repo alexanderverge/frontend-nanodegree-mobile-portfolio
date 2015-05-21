@@ -1,4 +1,25 @@
-## Website Performance Optimization portfolio project
+# Website Performance Optimization
+
+Project 4 in the Udacity Front End Web Developer Nanodegree
+
+Check it out here: http://alexanderverge.github.io/frontend-nanodegree-mobile-portfolio
+
+## Optimizations in main.js
+
+1. Fix FSL in the changePizzaSizes function
+2. Fix FSL in the updatePositions function
+3. Reduce the total number of pizzas animated
+
+## Optimizations in index.html
+1. Compress images
+2. Minify CSS
+3. Inline style.css (avoid render blocking)
+4. Add media information to print.css link in index.html (avoid render blocking)
+5. Remove Google Fonts
+6. Add async to Google Analytics link in index.html (avoid render blocking)
+7. Add max-age attribute to resources (enable caching)
+
+# Project Instructions
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
